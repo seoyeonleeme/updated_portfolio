@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seoyeon's Portfolio</title>
+    <meta name="description" content="Portfolio for software engineer Seoyeon">
+    <meta name="author" content="Seoyeon">
+    <script src="https://kit.fontawesome.com/3481f77d29.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/png" href="imgs/favicon0.png" />
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <!--타이틀, 메타description, 메타author, 폰트어썸, 구글폰트, 아이콘, CSS, JS 연결-->
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="navbar__logo">
+            <i class="fab fa-diaspora"></i>
+            <a href="#">SEOYEON</a>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item active" data-link="#home">Home</li>
+            <li class="navbar__menu__item" data-link="#about">About</li>
+            <li class="navbar__menu__item" data-link="#skills">Skills</li>
+            <li class="navbar__menu__item" data-link="#work">My work</li>
+            <li class="navbar__menu__item" data-link="#contact">Contact</li>
+        </ul>
+
+    <!-- Toggle button -->
+        <button class="navbar__toggle-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="home__container">
+            <img src="imgs/profile.이거.PNG" alt="Seoyeon's profile photo" class="home__avatar">
+            <h1 class="home__title">Hello, <br />I'm Seoyeon</h1>
+            <h2 class="home__description">I'm currently residing in Daegu, Korea.</h2>
+            <button class="home__contact" data-link="#contact">Contact Me</button>
+        </div>
+    </section>  
+
+    <!-- About -->
+    <section id="about" class="section section__container">
+        <h1>About me</h1>
+        <p class="about__me">부산대학교에서 영어영문학을 전공하고 미국 인턴십의 기회로 Sales 부서에서 근무한 경험이 있습니다. <br>다양한 것에 도전하고 성장하는 것에 관심이 있고 폭넓은 관심사를 갖고 있습니다. <br>매일매일 꾸준히 노력하며 초심을 잃지않는 이서연입니다.</p>
+        <div class="about__jobs">
+            <div class="job">
+                <img src="imgs/jobs/pnu logo0.png" alt="PNU" class="job__logo">
+                <div class="job__description">
+                    <p class="job__name">Pusan National University, Busan, Korea</p>
+                    <p class="job__detail">English language and literature</p>
+                    <p class="job__period">2013/3-2018/8</p>
+                </div>
+            </div>
+            <div class="job">
+                <img src="imgs/jobs/groningen logo.png" alt="PNU" class="job__logo">
+                <div class="job__description">
+                    <p class="job__name">University of Groningen, Groningen, The Netherlands</p>
+                    <p class="job__detail">European Economics, International Relationships and EU</p>
+                    <p class="job__period">2017/7-2017/8</p>
+                </div>
+            </div>
+            <div class="job">
+                <img src="imgs/jobs/leftbank art logo0.png" alt="PNU" class="job__logo">
+                <div class="job__description">
+                    <p class="job__name">Leftbank Art, California, USA</p>
+                    <p class="job__detail">Sales dpt: Registration, sales management with local/global reps</p>
+                    <p class="job__period">2019/8-2020/4</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="section__container">
+            <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p class="attributes">계속해서 새로운 업무를 배우고자 하는 열정이 있으며, 팀 환경 내 또는 개인적인 업무 수행이 가능합니다.<br />
+        시간 내에 빠르게 계획하고 업무를 수행하는 능력이 있으며 업무에 빠르게 적응할 수 있습니다.</p>
+        <div class="skillset">
+            <div class="skillset__left">
+                <h3 class="skillset__title__left">Experiences</h3>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>Internship in America</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width: 99%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>An English teacher in private academies</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>A front-end developer in IT company</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width: 90%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skillset__right">
+                <div class="tools">
+                    <h3 class="skillset__title">Skills</h3>
+                    <ul>
+                        <li><span>영어-TOEIC 950</span></li>
+                        <li><span>중국어-新HSK 5급/CEF C1</span></li>
+                        <li><span>컴퓨터활용능력 2급</span></li>
+                        <li><span>한국사 능력 검정시험 고급</span></li>
+                        <li><span>자동차운전면허</span></li>
+                    </ul>
+                </div>
+                <div class="etc">
+                    <h3 class="skillset__title__ETC">Tools</h3>
+                    <ul class="tools__list">
+                        <li><span>Git</span></li>
+                        <li><span>HTML</span></li>
+                        <li><span>CSS</span></li>
+                        <li><span>JavaScript</span></li>
+                        <li><span>Vue.js</span></li>
+                        <li><span>React.js</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+        <div class="section__container">
+            <h1>Self introduction</h1>
+            <h3>자기소개서</h3>
+            <div class="work__categories">
+                <button class="category__btn selected" data-filter="*">전체<span class="category__count">4</span></button>
+                <button class="category__btn" data-filter="motive">지원동기<span class="category__count">1</span></button>
+                <button class="category__btn" data-filter="ability">업무수행 자질<span class="category__count">1</span></button>
+                <button class="category__btn" data-filter="attitude">업무수행 방식<span class="category__count">1</span></button>
+                <button class="category__btn" data-filter="etc">기타<span class="category__count">1</span></button>
+            </div>
+            <div class="work__projects">
+                <a href="#" target="blank" class="project" data-type="motive">
+                    <!-- <img src="imgs/projects/youtube.png" alt="YouTube" class="project__img"> -->
+                    <div class="project__description">
+                        <h3>지원동기</h3>
+                        <span>대학교 졸업 후 캘리포니아의 대형 그림 회사에 인턴으로 근무할 기회가 있었습니다. 담당하게 된 업무는 대표적으로 고객관리와 영업 관리였습니다. 
+                            규모가 큰 회사였기 때문에 홈페이지에 가입하는 모든 고객들을 승인하진 않았습니다. 
+                            이윤을 최대로 할 수 있는 주요 고객들을 선별하여 승인하는 업무를 맡았는데, 주로 고객과 해당 주나 글로벌 영업대표를 연결하여 
+                            자격을 갖추었는지 확인하기 위해 필요한 서류를 요청하고 부적합할 시 소매업체와 연결시켜 주었습니다.<br /> <br />
+                            해당 업무를 수행하며 비즈니스 영어와 스킬을 빠르게 습득하였으며 시간이 지나 또 다른 업무도 맡게 되었습니다. 
+                            주로 고객들의 문의에 이메일, 유선상으로 응답하고 로컬, 글로벌 영업대표들과 소통하였으며 
+                            주요 고객들이 요청하는 캔버스의 소재, 그림 샘플, 액자 샘플을 선별하여 제공하였습니다. 
+                            이에 저는 제가 학교에서 배운 외국어 능력과 인턴십으로 얻은 국제적 감각, 그리고 도전지향적인 마인드를 바탕으로 업무를 수행하고자 지원하였습니다.
+                            <br /> <br />
+                            </span>
+                    </div> 
+                </a>
+                <a href="#" target="blank" class="project" data-type="ability">
+                    <!-- <img src="imgs/projects/cafe navbar.png" alt="navbar" class="project__img"> -->
+                    <div class="project__description">
+                        <h3>업무수행 자질</h3>
+                        <span>어떤 업무를 수행하던지 회사에서 일한다면 소통은 가장 기본적인 자질입니다. 저는 대학교 재학 중 네덜란드의 흐로닝언 대학교에서 팀 프로젝트를 준비한 적이 있습니다. 프로젝트를 영어로 해야 하는 부담감이 있었고 주제 역시 어려워서 진행에 난항을 겪었습니다. <br /> <br /> 저는 영문학 전공으로 영어에 대한 부담감이 적었고 팀에 도움이 될 수 있을 것 같아 조장을 자원했습니다. 저는 조원들이 확인을 부탁한 영어 발표 자료를 보고 부정확한 표현을 수정해주고, 제 PPT의 부족한 내용을 다른 조원들이 보완해주었습니다. 모두가 집념을 갖고 협조적으로 과제에 참여해서 발표를 무사히 마칠 수 있었고 이후에는 예상치 못한 최우수 팀 상까지 받게 되었습니다. <br /> <br />이를 통해 각자의 강점을 바탕으로 서로의 부족함을 메워주면 까다로운 과제도 완성도 높게 해낼 수 있다는 것을 알게 되었습니다. 이러한 경험으로 업무 수행 시 중요한 자질 중 하나인 협업과 의사소통을 배웠고 이를 바탕으로 업무에 빠르게 적응하여 일의 능률을 높이겠습니다.</span>
+                    </div>
+                </a>
+                <a href="#" target="blank" class="project" data-type="attitude">
+                    <!-- <img src="imgs/projects/game.png" alt="game" class="project__img"> -->
+                    <div class="project__description">
+                        <h3>업무수행 방식</h3>
+                        <span>저에게 일을 추진함에 있어 가장 중요한 요소 중 하나는 불필요한 업무를 최소화하는 것입니다. 덜 중요한 업무에 할애하는 시간을 줄여서 중요한 업무에 시간을 투자하는 것이 업무 수행에 있어 중요한 가치라고 생각합니다. <br /> <br />저는 이전에 학원에서 1년가량 아르바이트를 한 적이 있습니다. 학원의 원생 중 초등학교 저학년생들이 있었는데 알림장을 제대로 쓰지 못하는 경우가 빈번했습니다. 그런 경우, 학부모들이 데스크로 연락을 주었고 데스크에서는 담당 강사에게 숙제가 뭔지 물어 그 숙제를 다시 확인하여 부모님께 전달하는 비효율적인 과정으로 강사들의 업무에 지장이 있었습니다. <br /> <br />이에 저는 학원 컴퓨터에 모든 강사가 쉽게 숙제를 열람할 수 있도록 공유 네트워크 폴더를 이용해서 수업이 끝날 때마다 숙제를 기입하는 방식을 제안했고 이후 학부모 연락 시 데스크에서 즉시 숙제를 열람할 수 있게 되어 다른 강사들의 불편함이 많이 감소하였습니다.  <br/> <br/>이러한 경험을 통해 업무를 효율적으로 수행하기 위해서는 사소한 불편함에 귀 기울이고 개선하려는 의지가 중요하다는 것을 배웠습니다.</span>
+                    </div>
+                </a>
+                <a href="#" target="blank" class="project" data-type="etc">
+                    <!-- <img src="imgs/projects/game.png" alt="game" class="project__img"> -->
+                    <div class="project__description">
+                        <h3>기타</h3>
+                        <span>MBTI: ESTJ <br/>취미: 등산, 요가, 코딩 <br/>좌우명: 어디를 가든 마음을 다해 가자. <br/>블로그: https://seoyeonincosmos.tistory.com/</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+</section>
+
+
+
+
+    <!-- <section id="work" class="section">
+        <div class="section__container">
+            <h1>My work</h1>
+            <h3>Projects</h3>
+            <div class="work__categories">
+                <button class="category__btn selected" data-filter="*">All<span class="category__count">15</span></button>
+                <button class="category__btn" data-filter="html">HTML, CSS<span class="category__count">4</span></button>
+                <button class="category__btn" data-filter="javascript">JavaScript<span class="category__count">7</span></button>
+                <button class="category__btn" data-filter="react">React<span class="category__count">3</span></button>
+                <button class="category__btn" data-filter="vue">Vue<span class="category__count">1</span></button>
+            </div>
+            <div class="work__projects">
+                <a href="https://github.com/seoyeonleeme/youtube_clone_coding" target="blank" class="project" data-type="html">
+                    <img src="imgs/projects/youtube.png" alt="YouTube" class="project__img">
+                    <div class="project__description">
+                        <h3>YouTube</h3>
+                        <span>Youtube clone coding<br />with HTML, CSS, Mediaquery</span>
+                    </div> 
+                </a>
+                <a href="https://github.com/seoyeonleeme/responsive-navbar" target="blank" class="project" data-type="html">
+                    <img src="imgs/projects/cafe navbar.png" alt="navbar" class="project__img">
+                    <div class="project__description">
+                        <h3>Responsive Navbar</h3>
+                        <span>Making navbar responsive<br />with HTML, CSS, media query</span>
+                    </div>
+                </a>
+                <a href="https://github.com/seoyeonleeme/shopping-mall" target="blank" class="project" data-type="javascript">
+                    <img src="imgs/projects/game.png" alt="game" class="project__img">
+                    <div class="project__description">
+                        <h3>Shopping-mall game</h3>
+                        <span>Showing a list of items <br />and filtering when clicked<br />with HTML, CSS, JavaScript, JSON</span>
+                    </div>
+                </a>
+                <a href="https://github.com/seoyeonleeme/3d_flip_button" target="blank" class="project" data-type="html">
+                    <img src="imgs/projects/3d flip button.PNG" alt="YouTube" class="project__img">
+                    <div class="project__description">
+                        <h3>3d Flip Button</h3>
+                        <span>Making a button flip when hovered<br />with HTML, CSS</span>
+                    </div> 
+                </a>
+                <a href="https://github.com/seoyeonleeme/landing_page" target="blank" class="project" data-type="javascript">
+                    <img src="imgs/projects/landing page.PNG" alt="navbar" class="project__img">
+                    <div class="project__description">
+                        <h3>Lading Page</h3>
+                        <span>Showing a page with different titles<br />with HTML, CSS, JavaScript</span>
+                    </div>
+                </a>
+                <a href="https://github.com/seoyeonleeme/carrot-picking-game-" target="blank" class="project" data-type="javascript">
+                    <img src="imgs/projects/carrot picking game.PNG" alt="game" class="project__img">
+                    <div class="project__description">
+                        <h3>Carrot Picking Game</h3>
+                        <span>Clicking on carrots only in a limited time<br />with HTML, CSS, React</span>
+                    </div>
+                </a>
+                <a href="https://github.com/seoyeonleeme/favorite-movie" target="blank" class="project" data-type="javascript">
+                    <img src="imgs/projects/favorite movie.PNG" alt="game" class="project__img">
+                    <div class="project__description">
+                        <h3>Favorite Movie List</h3>
+                        <span>Showing a list of movies and descriptions for each<br />with HTML, CSS, JavaScript</span>
+                    </div>
+                </a>
+                <a href="https://github.com/seoyeonleeme/typing-game" target="blank" class="project" data-type="javascript">
+                    <img src="imgs/projects/typing master.PNG" alt="game" class="project__img">
+                    <div class="project__description">
+                        <h3>Typing Master</h3>
+                        <span>Typing in words quickly and precisely<br />with HTML, CSS, JavaScript</span>
+                    </div>
+                </a>
+                <a href="https://github.com/seoyeonleeme/to-do-list" target="blank" class="project" data-type="javascript">
+                    <img src="imgs/projects/to-do%20list.PNG" alt="game" class="project__img">
+                    <div class="project__description">
+                        <h3>To Do List</h3>
+                        <span>Making a list of things to do<br />with HTML, CSS, JavaScript</span>
+                    </div>
+                </a>
+                <a href="https://github.com/seoyeonleeme/calculator" target="blank" class="project" data-type="html">
+                    <img src="imgs/projects/calculator.PNG" alt="game" class="project__img">
+                    <div class="project__description">
+                        <h3>Calculator</h3>
+                        <span>with HTML, CSS</span>
+                    </div>
+                </a>
+                <a href="https://github.com/seoyeonleeme/YouTube" target="blank" class="project" data-type="react">
+                    <img src="imgs/projects/youtube react.PNG" alt="game" class="project__img">
+                    <div class="project__description">
+                        <h3>YouTube</h3>
+                        <span>Showing popular videos<br />and certain videos when searched<br />with HTML, CSS, React, Mediaquery, YouTube APIs</span>
+                    </div>
+                </a>
+                <a href="https://github.com/seoyeonleeme/business_card_maker" target="blank" class="project" data-type="react">
+                    <img src="imgs/projects/business card maker.PNG" alt="game" class="project__img">
+                    <div class="project__description">
+                        <h3>Business Card Maker</h3>
+                        <span>Creating business cards<br />as you fill in given blanks<br />with HTML, CSS, React, Mediaquery</span>
+                    </div>
+                </a>
+                <a href="https://github.com/seoyeonleeme/PortfolioEdit" target="blank" class="project" data-type="javascript">
+                    <img src="imgs/projects/portfolio.PNG" alt="game" class="project__img">
+                    <div class="project__description">
+                        <h3>Portfolio</h3>
+                        <span>with HTML, CSS, JavaScript, Mediaquery</span>
+                    </div>
+                </a>
+                <a href="https://github.com/seoyeonleeme/habit_tracker" target="blank" class="project" data-type="react">
+                    <img src="imgs/projects/habit tracker.PNG" alt="game" class="project__img">
+                    <div class="project__description">
+                        <h3>Habit Tracker</h3>
+                        <span>Managing a list of habits<br />with HTML, CSS, React</span>
+                    </div>
+                </a>
+                <a href="https://github.com/seoyeonleeme/Youtube_vue" target="blank" class="project" data-type="vue">
+                    <img src="imgs/projects/youtube react.PNG" alt="game" class="project__img">
+                    <div class="project__description">
+                        <h3>YouTube</h3>
+                        <span>Showing popular videos<br />and certain videos when searched<br />with HTML, CSS, VUE, Mediaquery, YouTube APIs</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Let's talk</h1>
+        <h2 class="contact__phone">010-2666-6255</h2>
+        <h2 class="contact__email">seoyeonleeme@gmail.com</h2>
+        <div class="contact__links">
+            <a href="https://github.com/seoyeonleeme" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <p class="contact__rights">
+            2022 Seoyeon Portfolio - All rights reserved.
+        </p>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up" data-link="#home">
+        <i class="fas fa-home"></i>
+    </button>
+
+</body>
+</html>
